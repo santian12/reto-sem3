@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+html{
+    max-height:400%;
+}
+body{
+    background-color:#fcfcfb;
+    padding-top: 20px ;
+    font-family:  "poppins" ;
+}
+header{
+     padding-bottom:40px ;
+    text-align: center;
+   
+}
+header h1{
+    font-family: 'Poppins';
+    color: rgb(81, 83, 107);
+    font-size: 25px;
+   font-weight: 100;
+   margin-bottom: 1px;
+}
+header h2{
+ margin-top: 1px;
+ color: rgb(58, 59, 68);
+}
+header p{
+    margin-right: 0 auto;
+    margin: 0 auto;
+    max-width: 43%;
+    font-size: 15px;
+    align-items: center;
+    color: rgb(163, 165, 180);
+}
+section{
+    display:  grid;
+    grid-template-columns: repeat(4 , 4fr) ;
+    padding-bottom: 25%;
+}
+article{
+    justify-items: center;
+    padding-left: 20px;
+    background-color: white;
+    position: relative;
+    box-shadow: 1px 1px 10px 1px rgb(187, 203, 214);
+     border-radius: 12px;
+     width: 340px;
+     height: 200px;
+}
+div{ 
+    top: 0px;
+    right: 18px;
+   position: relative;
+    height: 6px;
+    width:105%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.arr{
+    
+    left: 40%;
+    top: 10% ;
+}
+.arr div{
+    background-color: red;
+}
+.aba{
+    right:60% ;
+    top: 120% ;
+}
+.aba div{
+    background-color: orange;
+}
+.izq{ 
+    top: 70% ;
+    left: 32% ;
+}
+.izq div{
+    background-color: rgb(119, 183, 255);
+}
+.der{
+    top: 70% ;
+    right: 52% ;
+} 
+.der div{
+    background-color: rgb(40, 105, 245);
+}
+article h3{
+    
+    color: rgb(67, 71, 104);
+}
+article  p{
+    padding-right: 80px;
+    font-size: 13px;
+    color: rgb(163, 165, 180);
+}
+article img{
+    position: relative;
+    width: 70px;
+    left: 70%;
+    bottom: 12px;
+}
+
+@media  (min-width: 320px) and (max-width:767px){
+    body{
+        overflow-x: hidden;
+    }
+   header{
+       text-align: center;
+
+   }
+   header h1{
+       font-size: 18px;
+   }
+   header h2{
+       font-size: 19px;
+   }
+   header p{
+      font-size: 12px;
+      max-width: 80%;
+   }
+   section{
+    display:  grid;
+    grid-template-rows: repeat(4 , 4fr) ;
+    padding-bottom: 25%;
+    margin-bottom: 50px;
+}
+.izq{ 
+   
+    left: 9% ;
+    top: 10% ;
+}
+.arr{
+    left: -90% ;
+    top: 120% ;
+}
+.aba{
+right: 190%;
+    top: 230% ;
+}
+.der{
+    top: 340% ;
+    right:290%  ;
+}
+
+}
+@media  (min-width: 320px) and (max-width:375px){
+  article{
+      max-width: 60%;
+  }
+  article div{
+      width: 107.6%;
+  }
+  article img{
+      width: 50px;
+      position: relative;
+      bottom: -20px;
+  }
+  article p{
+      padding-right: 20px;
+      font-size: 10px;
+  }
+
+}
+@media  (min-width: 375px) and (max-width:424px){
+  article{
+      max-width: 80%;
+  }
+  article div{
+      width: 106%;
+  }
+}
+@media  (min-width: 426px) and (max-width:768px){
+    article{
+        max-width: 60%;
+    }
+    .arr{
+    
+        left: -20%;
+        top: 10% ;
+    }
+    .izq{
+        left: 7%;
+    }
+    .aba{
+        right:120% ;
+        top: 120% ;
+    }
+    .der{
+        top: 70% ;
+       right: 148% ;
+    } 
+    article div{
+        width: 107%;
+    }
+    article img{
+     width: 50px;
+    }
+  
+}
